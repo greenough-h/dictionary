@@ -10,6 +10,6 @@ export default function Results(props) {
       </div>
     );
   } else {
-    return <p>"Please enter a word to search"</p>;
+    return <p>Please enter a word to search</p>;
   }
 }
