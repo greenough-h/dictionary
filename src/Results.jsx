@@ -5,7 +5,7 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="container">
-        <p>{props.results.word}</p>
+        <h3 style={{ textTransform: "capitalize" }}>{props.results.word}</h3>
         <Definitions definitions={props.results.meanings} />
       </div>
     );
