@@ -3,7 +3,7 @@ import React from "react";
 export default function ExtraMeanings(props) {
   if (props.extra) {
     return (
-      <div className={props.topic}>
+      <div className={`container ${props.topic}`}>
         <p>
           {" "}
           <strong>{props.topic}: </strong>

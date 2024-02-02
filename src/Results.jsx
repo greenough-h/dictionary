@@ -4,7 +4,7 @@ import Meanings from "./Meanings";
 export default function Results(props) {
   if (props.results) {
     return (
-      <div className="container">
+      <div className="container Results">
         <h3 style={{ textTransform: "capitalize" }}>{props.results.word}</h3>
         <div>
           <p>{props.results.phonetic}</p>
