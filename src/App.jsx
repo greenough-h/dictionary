@@ -1,11 +1,13 @@
+import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App">
       <h1>Dictionary</h1>
       <Dictionary defaultKeyWord="sunflower" />
+
       <footer>
         <p>
           Coded by{" "}

@@ -47,7 +47,7 @@ export default function Dictionary(props) {
 
   if (loaded) {
     return (
-      <div className="container Dictionary">
+      <div className="Dictionary">
         <form onSubmit={searchWord} className="container">
           <input
             type="search"
@@ -55,6 +55,8 @@ export default function Dictionary(props) {
             defaultValue={props.defaultKeyWord}
           />
           <input type="submit" value="Search" />
+
+          <p className="hint">enter a word to search! ex. happy, sky, apple</p>
         </form>
         <Results results={results} />
         <Photos photos={photos} />
