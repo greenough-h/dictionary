@@ -3,7 +3,7 @@ import ExtraMeanings from "./ExtraMeanings";
 
 export default function Meanings(props) {
   return (
-    <div className="Definition container">
+    <div className="Meanings container">
       {props.meanings.map(function (definition, index) {
         return (
           <div key={index}>

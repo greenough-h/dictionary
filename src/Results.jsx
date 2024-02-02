@@ -6,6 +6,9 @@ export default function Results(props) {
     return (
       <div className="container">
         <h3 style={{ textTransform: "capitalize" }}>{props.results.word}</h3>
+        <div>
+          <p>{props.results.phonetic}</p>
+        </div>
         <Meanings meanings={props.results.meanings} />
       </div>
     );
